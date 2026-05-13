@@ -1,18 +1,67 @@
 body{
-  font-family: Arial;
-  text-align: center;
-  margin-top: 100px;
-  background-color: #f5f5f5;
+  margin:0;
+  padding:0;
+  font-family: Arial, sans-serif;
+  background:#f4f4f4;
+  color:#333;
 }
 
-h1{
-  color: blue;
+/* Header */
+
+header{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background:#111;
+  color:white;
+  text-align:center;
 }
 
 button{
-  padding: 10px 20px;
-  border: none;
-  background-color: black;
-  color: white;
-  cursor: pointer;
+  padding:12px 25px;
+  border:none;
+  background:#007bff;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+  border-radius:5px;
+}
+
+button:hover{
+  background:#0056b3;
+}
+
+/* Sections */
+
+section{
+  padding:60px 20px;
+  text-align:center;
+}
+
+h2{
+  margin-bottom:20px;
+}
+
+/* Skills */
+
+ul{
+  list-style:none;
+  padding:0;
+}
+
+li{
+  padding:10px;
+}
+
+/* Project Cards */
+
+.project-card{
+  background:white;
+  margin:20px auto;
+  padding:20px;
+  width:300px;
+  border-radius:10px;
+  box-shadow:0px 2px 10px rgba(0,0,0,0.1);
 }

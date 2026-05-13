@@ -1,1 +1,7 @@
-console.log("Portfolio Website Loaded");
+console.log("Portfolio Loaded Successfully");
+
+const button = document.querySelector("button");
+
+button.addEventListener("click", () => {
+  alert("Thanks for visiting my portfolio!");
+});
